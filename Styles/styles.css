@@ -86,7 +86,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 
- outline: red solid 4px;
+ /* outline: red solid 4px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -202,7 +202,7 @@ span {
 
   width: 48px;
   height: 4px;
-  top: 63px;
+  top: 68px;
 
   background: var(--accent-color);
   border-radius: 2px;
@@ -552,7 +552,7 @@ screen and (min-resolution: 2dppx) {
     padding-bottom: 120px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .team-container {
     max-width: 584px;
   }
@@ -673,7 +673,7 @@ screen and (min-resolution: 2dppx) {
 
 /* Clients-container */
 
-@media  screen and (max-width: 768px) {
+@media  screen and (min-width: 768px) {
   .clients-container {
     max-width: 584px;
   }
@@ -768,7 +768,7 @@ screen and (min-resolution: 2dppx) {
 }
 /* .footer-container  */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .footer-container {
     max-width: 584px;
     display: flex;
@@ -780,6 +780,7 @@ screen and (min-resolution: 2dppx) {
     display: flex;
     align-items: baseline;
     justify-content: center;
+    flex-wrap: nowrap;
   }
 }
 
@@ -1493,7 +1494,7 @@ screen and (min-resolution: 2dppx) {
     display: none;
   }
 }
-.menu-open-icon {
+/* .menu-open-icon {
   position: absolute;
   top: 24px;
   right: 16px;
@@ -1504,7 +1505,7 @@ screen and (min-resolution: 2dppx) {
   background: var(--text-color);
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 .menu-open-icon:hover,
 .menu-open-icon:focus {
   fill: var(--accent-color);
