@@ -554,7 +554,7 @@ screen and (min-resolution: 2dppx) {
 }
 @media screen and (max-width: 768px) {
   .team-container {
-    min-width: 584px;
+    max-width: 584px;
   }
 }
 .team-title {
@@ -675,7 +675,7 @@ screen and (min-resolution: 2dppx) {
 
 @media  screen and (max-width: 768px) {
   .clients-container {
-    min-width: 584px;
+    max-width: 584px;
   }
 }
 
@@ -836,11 +836,7 @@ screen and (min-resolution: 2dppx) {
 
   color: var(--portfolio-btn);
 }
-/* @media screen and (min-width: 768px) {
-  .footer-text-discrip {
-    display: inline-block;
-  }
-} */
+
 
 .footer-join {
   margin-top: 72px;
@@ -1479,7 +1475,7 @@ screen and (min-resolution: 2dppx) {
   padding-left: 40px;
   display: flex;
   flex-direction: column;
-  width: 428px;
+  width: 100%;
   height: 100%;
   
   background-color: var(--text-color);
