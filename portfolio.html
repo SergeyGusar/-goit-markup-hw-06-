@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header портфолио -->
+    <section class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+        <a class="header-logo" href=""><span class="logo-web">Web</span>Studio</a>
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link " href="./index.html">Studio</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link-active current-active" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-contakt">
+        <ul class="header-contakt-list">
+          <li class="header-contakt-item">
+            <a class="header-contakt-link" href="info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="header-contakt-item">
+            <a class="header-contakt-link" href="+11 (000) 111-11-11">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+      <!-- MOBILE MENU -->
+    <button type="button"
+    class="menu-toggle js-open-menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
+    <svg class="menu-open-icon"
+      width="32"
+      height="32">
+      <use href="./sprite/sprite.svg#icon-menu-hamburger"></use>
+    </svg>
+  </button>
+      </section>
+    <!-- Project -->
+    <main>
+        <section class="project container">
+          <div class="project-btn">
+            <ul class="portfolio-btn-list">
+              <li class="portfolio-btn-item">
+                  <button class="portfolio-btn  button--current" type="button">All</button>
+              </li>
+              <li class="portfolio-btn-item">
+                  <button class="portfolio-btn" type="button">Web Site</button>
+              </li>
+              <li class="portfolio-btn-item">
+                  <button class="portfolio-btn" type="button">App</button>
+              </li>
+              <li class="portfolio-btn-item">
+                  <button class="portfolio-btn" type="button">Design</button>
+              </li>
+              <li class="portfolio-btn-item">
+                  <button class="portfolio-btn" type="button">Marketing</button>
+              </li>
+               </ul>
+               </div>
+      <ul class="portfolio-project-list">
+        <li class="portfolio-project-item">
+          <div class="portfolio-project-wrapper">
+            <a class="portfolio-project-link" href="#">
+              <picture>
+                <source srcset="./portfolio.img/descktop/port1d@1x.jpg 1x, ./portfolio.img/descktop/port1d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port1t@1x.jpg 1x, ./portfolio.img/tablet/port1t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port1m@1x.jpg 1x, ./portfolio.img/mobile/port1m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+                <img src="./portfolio.img/mobile/port1m@1x.jpg" 
+                alt="Розробка Веб-сайта" width="450">
+              </picture>
+              <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+            </div>
+              <div class="portfolio-text">
+                  <h3 class="portfolio-project-title">Banking App Interface Concept</h3>
+                  <p class="portfolio-project-work">App</p>
+            </div>
+          </a>
+        </li>
+        <li class="portfolio-project-item">
+            <div class="portfolio-project-wrapper">
+              <a class="portfolio-project-link" href="#">
+                <picture>
+                  <source srcset="./portfolio.img/descktop/port2d@1x.jpg 1x, ./portfolio.img/descktop/port2d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port2t@1x.jpg 1x, ./portfolio.img/tablet/port2t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port2m@1x.jpg 1x, ./portfolio.img/mobile/port2m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+                  <img src="./portfolio.img/mobile/port2m@1x.jpg"
+                 alt="Два баскетболиста" width="450">
+                </picture>
+                  <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+            </div>
+              <div class="portfolio-text">
+                <h3 class="portfolio-project-title">Cashless Payment</h3>
+              <p class="portfolio-project-work">Marketing</p>
+              </div>
+            </a>
+        </li>
+        <li class="portfolio-project-item">
+          <div class="portfolio-project-wrapper">
+            <a class="portfolio-project-link" href="#">
+              <picture>
+                <source srcset="./portfolio.img/descktop/port3d@1x.jpg 1x, ./portfolio.img/descktop/port3d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port3t@1x.jpg 1x, ./portfolio.img/tablet/port3t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port3m@1x.jpg 1x, ./portfolio.img/mobile/port3m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+                <img src="./portfolio.img/mobile/port3m@1x.jpg"
+               alt="Логотип ресторана" width="450">
+              </picture>
+                <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+          </div>
+            <div class="portfolio-text">
+              <h3 class="portfolio-project-title">Meditation App</h3>
+            <p class="portfolio-project-work">App</p>
+            </div>
+          </a>
+        </li>
+        <li class="portfolio-project-item">
+         <div class="portfolio-project-wrapper">
+          <a class="portfolio-project-link" href="#">
+           <picture>
+            <source srcset="./portfolio.img/descktop/port4d@1x.jpg 1x, ./portfolio.img/descktop/port4d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port4t@1x.jpg 1x, ./portfolio.img/tablet/port4t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port4m@1x.jpg 1x, ./portfolio.img/mobile/port4m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+            <img src="./portfolio.img/mobile/port4m@1x.jpg"
+            alt="Наушники" width="450">
+           </picture>
+              <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+         </div>
+            <div class="portfolio-text">
+              <h3 class="portfolio-project-title">Taxi Service</h3>
+            <p class="portfolio-project-work">Marketingг</p>
+            </div>
+          </a>
+        </li>
+        <li class="portfolio-project-item">
+        <div class="portfolio-project-wrapper">
+          <a class="portfolio-project-link" href="#">
+            <picture>
+              <source srcset="./portfolio.img/descktop/port5d@1x.jpg 1x, ./portfolio.img/descktop/port5d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port5t@1x.jpg 1x, ./portfolio.img/tablet/port5t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port5m@1x.jpg 1x, ./portfolio.img/mobile/port5m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+              <img src="./portfolio.img/mobile/port5m@1x.jpg" 
+            alt="Две коробки" width="450">
+            </picture>
+             <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+        </div>
+            <div class="portfolio-text">
+              <h3 class="portfolio-project-title">Screen Illustrations</h3>
+              <p class="portfolio-project-work">Design</p>
+            </div>
+          </a>
+        </li>
+        <li class="portfolio-project-item">
+          <div class="portfolio-project-wrapper">
+            <a class="portfolio-project-link" href="#">
+              <picture>
+                <source srcset="./portfolio.img/descktop/port6d@1x.jpg 1x, ./portfolio.img/descktop/port6d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port6t@1x.jpg 1x, ./portfolio.img/tablet/port6t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port6m@1x.jpg 1x, ./portfolio.img/mobile/port6m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+                <img src="./portfolio.img/mobile/port6m@1x.jpg" 
+              alt="Дизайн проекта на монитор" width="450">
+              </picture>
+               <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+          </div>
+             <div class="portfolio-text">
+              <h3 class="portfolio-project-title">Online Courses</h3>
+              <p class="portfolio-project-work">Marketing</p>
+             </div>
+            </a>
+        </li>
+        <li class="portfolio-project-item">
+          <div class="portfolio-project-wrapper">
+            <a class="portfolio-project-link" href="#">
+             <picture>
+              <source srcset="./portfolio.img/descktop/port7d@1x.jpg 1x, ./portfolio.img/descktop/port7d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port7t@1x.jpg 1x, ./portfolio.img/tablet/port7t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port7m@1x.jpg 1x, ./portfolio.img/mobile/port7m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+              <img src="./portfolio.img/mobile/port7m@1x.jpg"
+              alt="Открытая книга" width="450">
+             </picture>
+               <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+          </div>
+             <div class="portfolio-text">
+               <h3 class="portfolio-project-title">Instagram Stories Concept</h3>
+             <p class="portfolio-project-work">Design</p>
+             </div>
+            </a>
+        </li>
+        <li class="portfolio-project-item">
+          <div class="portfolio-project-wrapper">
+            <a class="portfolio-project-link" href="#">
+              <picture>
+                <source srcset="./portfolio.img/descktop/port8d@1x.jpg 1x, ./portfolio.img/descktop/port8d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port8t@1x.jpg 1x, ./portfolio.img/tablet/port8t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port8m@1x.jpg 1x, ./portfolio.img/mobile/port8m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+                <img src="./portfolio.img/mobile/port8m@1x.jpg" 
+              alt="Тег метки" width="450">
+              </picture>
+               <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+          </div>
+              <div class="portfolio-text">
+                <h3 class="portfolio-project-title">Organic Food</h3>
+              <p class="portfoliopr-oject-work">Web Site</p>
+              </div>
+            </a>
+        </li>
+        <li class="portfolio-project-item">
+          <div class="portfolio-project-wrapper">
+            <a class="portfolio-project-link" href="#">
+              <picture>
+                <source srcset="./portfolio.img/descktop/port9d@1x.jpg 1x, ./portfolio.img/descktop/port9d@2x.jpg 2x"
+                media="(min-width: 1200px)"/>
+                <source srcset="./portfolio.img/tablet/port9t@1x.jpg 1x, ./portfolio.img/tablet/port9t@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                <source srcset="./portfolio.img/mobile/port9m@1x.jpg 1x, ./portfolio.img/mobile/port9m@2x.jpg 2x"
+                media="(min-width: 480px)"/>
+                <img src="./portfolio.img/mobile/port9m@1x.jpg" 
+              alt="Ноутбук в работе" width="450">
+              </picture>
+               <div class="overlay">
+                <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+              </div>
+          </div>
+             <div class="portfolio-text">
+              <h3 class="portfolio-project-title">Fresh Coffee</h3>
+              <p class="portfolio-project-work">Web Site</p>
+             </div>
+            </a>
+        </li>
+     </ul>
+    </section>
+    </main>
+    <!-- Футер портфолио-->
+    <section class="footer-section">
+      <div class="container footer-container">
+       <div class="footer-tablet">
+         <div class="footer-nav">
+           <a class="footer-logo"><span class="logo-web">Web</span>Studio</a>
+           <p class="footer-text-discrip">
+             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+           </p>
+         </div>
+         <div class="footer-join">
+           <h3 class="footer-join-title">Social media</h3>
+           <ul class="join-icon-list">
+             <li class="join-icon-item">
+               <a class="join-icon-link" href="icon-instagram">
+                 <svg class="join-icon" width="20" height="20">
+                   <use href="./sprite/sprite.svg#icon-instagram">
+                   </use>
+                 </svg>
+               </a>
+             </li>
+             <li class="join-icon-item">
+               <a class="join-icon-link" href="icon-twitter">
+                 <svg class="join-icon" width="20" height="20">
+                 <use href="./sprite/sprite.svg#icon-twitter">
+                </use>
+               </svg>
+             </a>
+             </li>
+             <li class="join-icon-item">
+               <a class="join-icon-link" href="icon-facebook">
+                 <svg class="join-icon" width="20" height="20">
+                 <use href="./sprite/sprite.svg#icon-facebook">
+                 </use>
+               </svg>
+             </a>        
+             </li>
+             <li class="join-icon-item">
+               <a class="join-icon-link" href="icon-linkedin">
+                 <svg class="join-icon" width="20" height="20">
+                 <use href="./sprite/sprite.svg#icon-linkedin">
+                 </use>
+               </svg>
+             </a>
+             </li>
+           </ul>
+         </div>
+       </div>
+       <form class="mailing-list">
+         <p class="mailing-text">Subscribe</p>
+         <div class="mailing-wrap">
+           <label class="mailing-label" for="mailing">
+             <input type="mailing" name="mailing" id="mailing" placeholder="E-mail">
+           </label>
+         <button  class="mailing-btn" type="submit">
+           <p class="mailing-btn-text">Subscribe</p>
+           <svg class="icon-send" width="24" height="24">
+             <use href="./sprite/sprite.svg#icon-send">
+             </use>
+           </svg>
+         </button>
+         </div>
+       </form>
+      </div>
+     </section>
+      <!-- menu -->
+      <div class="menu-container  js-menu-container" id="mobile-menu" >
+        <button type="button" class="menu-toggle js-close-menu">
+          <svg class="close-menu-icon"
+            width="24"
+            height="24">
+            <use href="./sprite/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="menu-mobile-list">
+          <li class="menu-mobile-item"><a href="./index.html" class="link">Студія</a></li>
+          <li class="menu-mobile-item active"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+          <li class="menu-mobile-item"><a href="#" class="link">Контакти</a></li>
+        </ul>
+         <ul class="mobile-contakts-list">
+          <li class="mobile-contakt-item tel-contakt"><a href="" class="link">+38 096 111 11 11</a></li>
+          <li class="mobile-contakt-item"><a href="" class="link">info@devstudio.com</a></li>
+         </ul>
+          <ul class="mobile-socials-list"> 
+            <li class="mobile-socials-item"><a href="" class="link-social">Instagram</a></li>
+            <li class="mobile-socials-item"><a href="" class="link-social">Twitter</a></li>
+            <li class="mobile-socials-item"><a href="" class="link-social">Facebook</a></li>
+            <li class="mobile-socials-item"><a href="" class="link-social">LinkedIn</a></li> 
+            </ul>  
+      </div>
+      <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+      ></script>
+      <script defer src="./Js/mobile-menu.js"></script>  
+</body>
+</html>
