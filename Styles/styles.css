@@ -86,7 +86,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 
-  border: red solid 4px;
+ outline: red solid 4px;
 }
 
 @media screen and (min-width: 768px) {
