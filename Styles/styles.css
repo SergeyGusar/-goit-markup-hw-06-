@@ -1428,8 +1428,12 @@ stroke: rgba(0, 0, 0, 0.10)
   justify-content: center;
   align-items: center;
 }
+.check-label {
+  display: flex;
+  align-items: center;
+}
 
-.checkbox {
+.check-input {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1443,12 +1447,12 @@ stroke: rgba(0, 0, 0, 0.10)
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.accept input:checked + .checkbox-btn {
+.accept input:checked + .check-input {
   background: var(--accent-color);
   border: 0.2px solid var(--accent-color);
 }
 
-.accept p {
+.chek-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1461,7 +1465,7 @@ stroke: rgba(0, 0, 0, 0.10)
   color: var(--sacondary-color-color);
 }
 @media screen and (min-width: 428px) {
-  .agree-text {
+  .chek-text {
     font-size: 12px;
   }
 }
