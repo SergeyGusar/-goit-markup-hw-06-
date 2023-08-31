@@ -507,11 +507,10 @@
       <form class="mailing-list">
         <p class="mailing-text">Subscribe</p>
         <div class="mailing-wrap">
-          <label class="mailing-label" for="mailing">
-            <input type="mailing" name="mailing" id="mailing" placeholder="E-mail">
+          <label class="mailing-label" for="email">
+            <input type="email" name="email" id="email" placeholder="E-mail">
           </label>
-        <button  class="mailing-btn" type="submit">
-          <p>Subscribe</p>
+        <button  class="mailing-btn" type="submit">Subscribe
           <svg class="icon-send" width="24" height="24">
             <use href="./sprite/sprite.svg#icon-send">
             </use>
@@ -521,7 +520,6 @@
       </form>
      </div>
     </section>
-    
     <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -532,9 +530,9 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <form action="" class="modal-form">
+        <form class="modal-form">
           <div class="form-element">
-            <label for="name">Name</label>
+            <label for="user-name">Name</label>
             <div class="input-wrap">
               <input type="text" name="user-name" id="user-name" placeholder="" required minlength="3">
               <svg class="icon-modal" width="16" height="16">
@@ -565,15 +563,16 @@
             <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Text input" required minlength="7"></textarea>
           </div>
           <div class="accept">
-            <label for="accept"> 
-              <input type="checkbox" name="accept" id="accept"  class="visually-hidden">
-              <div class="checkbox-btn">
+           
+              <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+              <label class="" for="modal-form-agreement">
+              <span class="checkbox"></span>
                 <svg class="svg-vector" width="16" height="15">
                   <use href="./sprite/sprite.svg#icon-Property">
                   </use>
                 </svg>
-              </div>
-            <p class="agree-text">I accept the terms and conditions of the <span><a class="agree-link" href="#">Privacy Policy</a></span></p>
+              
+            <p>I accept the terms and conditions of the <span><a class="agree-link" href="#">Privacy Policy</a></span></p>
             </label>
           </div>
           <button class="modal-submit submit-text" type="submit">Send</button>
@@ -595,7 +594,7 @@
         <li class="menu-mobile-item"><a href="#" class="link">Contacts</a></li>
       </ul>
        <ul class="mobile-contakts-list">
-        <li class="mobile-contakt-item tel-contakt"><a href="tel:+11 (000) 111-11-11" class="link">+11 (000) 111-11-11</a></li>
+        <li class="mobile-contakt-item tel-contakt"><a href="tel:+11(000)1111111" class="link">+11 (000) 111-11-11</a></li>
         <li class="mobile-contakt-item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
        </ul>
         <ul class="mobile-socials-list"> 

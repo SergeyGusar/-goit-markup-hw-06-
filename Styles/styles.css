@@ -1429,13 +1429,13 @@ stroke: rgba(0, 0, 0, 0.10)
   align-items: center;
 }
 
-.checkbox-btn {
+.checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
   cursor: pointer;
   border: 1px solid var(--bacground-bacdrop);
   border-radius: 1px;
@@ -1448,7 +1448,7 @@ stroke: rgba(0, 0, 0, 0.10)
   border: 0.2px solid var(--accent-color);
 }
 
-.agree-text {
+.accept p {
   display: flex;
   align-items: center;
   justify-content: center;
