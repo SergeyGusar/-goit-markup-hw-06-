@@ -135,15 +135,16 @@ span {
 .header {
   background-color: var(--text-color);
   border-bottom: 1px solid var(--hedar-border);
-  height: 70px;
+  
 }
 
-.header-container {
+.header .container {
   display: flex;
   align-items: center;
+  height: 70px;
 }
 @media screen and (min-width: 767px) {
-  .header-container {
+  .header .container {
     height: 72px;
   }
 }
@@ -205,7 +206,7 @@ span {
 
   width: 48px;
   height: 4px;
-  top: 66px;
+  top: 70px;
 
   background: var(--accent-color);
   border-radius: 2px;
@@ -773,13 +774,13 @@ screen and (min-resolution: 2dppx) {
 }
 
 /* FOOTER */
-.footer-section {
+.footer {
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: var(--footer-color);
 }
 @media screen and (min-width: 1158px) {
-  .footer-section{
+  .footer {
     min-width: 1158px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1055,23 +1056,24 @@ screen and (min-resolution: 2dppx) {
 
 /* PORTFOLIO */
 
+
+.current-active::after {
+  display: block;
+  content: "";
+  position: absolute;
+
+  width: 70px;
+  height: 4px;
+  margin-top: 18px;
+  background: var(--bacground-overlay);
+  border-radius: 2px;
+}
 .current-active {
   color: var(--accent-color);
 
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.current-active::after {
-  display: block;
-  content: "";
-  position: absolute;
-
-  width: 66px;
-  height: 4px;
-  margin-top: 18px;
-  background: var(--bacground-overlay);
-  border-radius: 2px;
 }
 .project {
   padding-top: 48px;
