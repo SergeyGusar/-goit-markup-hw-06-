@@ -566,7 +566,7 @@ screen and (min-resolution: 2dppx) {
     padding-bottom: 120px;
   }
 }
-@media  screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .team-container {
     max-width: 584px;
   }
