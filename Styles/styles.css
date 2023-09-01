@@ -1430,7 +1430,7 @@ stroke: rgba(0, 0, 0, 0.10)
 }
 
 
-.check-input {
+.check-label {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1449,11 +1449,15 @@ stroke: rgba(0, 0, 0, 0.10)
   border: 0.2px solid var(--accent-color);
 }
 
-.check-label {
+.check-input {
   display: flex;
   align-items: center;
 }
-
+.check-svg {
+  display:inline-flex;
+  align-items: center;
+  justify-content:center;
+}
 
 .check-link {
   margin-left: 5px;
