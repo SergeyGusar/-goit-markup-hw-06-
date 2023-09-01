@@ -1431,38 +1431,42 @@ stroke: rgba(0, 0, 0, 0.10)
 
 
 .check-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  /* margin-right: 8px; */
+ 
+ 
   cursor: pointer;
-  border: 1px solid var(--bacground-bacdrop);
-  border-radius: 1px;
-  transition-property: background, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+ 
 }
-.check input:checked + .check-input {
+/* .check input:checked + .check-input {
   background: var(--accent-color);
   border: 0.2px solid var(--accent-color);
+} */
+input[type="checkbox"] + .check-svg {
+  /* background: var(--accent-color); */
+  border: 0.2px solid var(--accent-color);
 }
-
-.check-input {
+/* .check-input {
   display: flex;
   align-items: center;
-}
+} */
 .check-svg {
   display:inline-flex;
   align-items: center;
   justify-content:center;
+  width: 16px;
+  height: 16px;
+  border: 0.2px solid var(--bacground-bacdrop);
+  background-color: #404bbf;
 }
 
 .check-link {
   margin-left: 5px;
   text-decoration-line: underline;
   color: var(--bacground-overlay);
+  border-radius: 1px;
+  transition-property: background, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .chek-text {
   display: flex;
