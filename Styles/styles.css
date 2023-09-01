@@ -1428,10 +1428,7 @@ stroke: rgba(0, 0, 0, 0.10)
   justify-content: center;
   align-items: center;
 }
-.check-label {
-  display: flex;
-  align-items: center;
-}
+
 
 .check-input {
   display: flex;
@@ -1452,6 +1449,10 @@ stroke: rgba(0, 0, 0, 0.10)
   border: 0.2px solid var(--accent-color);
 }
 
+.check-label {
+  display: flex;
+  align-items: center;
+}
 
 
 .check-link {
