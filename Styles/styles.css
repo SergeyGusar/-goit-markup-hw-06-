@@ -1451,6 +1451,9 @@ stroke: rgba(0, 0, 0, 0.10)
   border: 0.2px solid var(--color-border-check-modal);
   border-radius: 2px;
 }
+.svg-vector {
+  fill:transparent;
+}
 
 .check-link {
   
