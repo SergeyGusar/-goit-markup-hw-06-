@@ -17,7 +17,8 @@
   --bacground-we-do__work: rgba(47, 48, 58, 0.8);
   --color-input-border: rgba(33, 33, 33, 0.2);
   --color-border-modal-clos-btn: rgba(0, 0, 0, 0.1);
-  --bacground-bacdrop: rgba(46, 47, 66, 0.40);
+  --bacground-bacdrop: #ECF1F4 rgba(46, 47, 66, 0.40);
+  --color-border-check-modal:  rgba(46, 47, 66, 0.40);
   --border-portfolio-text: #eeeeee;
   --border-mailing-imput: rgba(255, 255, 255, 0.3);
   --bacgruond-color-we-do-text: rgba(47, 48, 58, 0.8);
@@ -1423,43 +1424,36 @@ stroke: rgba(0, 0, 0, 0.10)
   border: 1px solid var(--background-footer-icon);
 }
 
-.check {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
 .check-label {
- 
- 
-  cursor: pointer;
+  display: flex;
+  align-items: center;
   
- 
+  cursor: pointer; 
 }
-/* .check input:checked + .check-input {
+
+
+ input:checked + .check-svg {
   background: var(--accent-color);
   border: 0.2px solid var(--accent-color);
-} */
-input[type="checkbox"] + .check-svg {
-  /* background: var(--accent-color); */
-  border: 0.2px solid var(--accent-color);
+  
 }
-/* .check-input {
-  display: flex;
-  align-items: center;
-} */
+
+
 .check-svg {
   display:inline-flex;
   align-items: center;
   justify-content:center;
   width: 16px;
   height: 16px;
-  border: 0.2px solid var(--bacground-bacdrop);
-  background-color: #404bbf;
+  margin-right: 8px;
+
+ 
+  border: 0.2px solid var(--color-border-check-modal);
+  border-radius: 2px;
 }
 
 .check-link {
+  
   margin-left: 5px;
   text-decoration-line: underline;
   color: var(--bacground-overlay);
@@ -1468,7 +1462,7 @@ input[type="checkbox"] + .check-svg {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.chek-text {
+.check-text {
   display: flex;
   align-items: center;
   justify-content: center;
