@@ -967,7 +967,7 @@ body {
   .mailing-wrap {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+  
   }
 }
 /* @media screen and (min-width: 1158px) {
